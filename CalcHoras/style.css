@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(to bottom, rgba(247, 110, 18, 0.733), rgba(255, 6, 143, 0.623));
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h3{
+    color: white;
+}
+.inicial{
+    text-align: center;
+    border-style: double;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    background-image: linear-gradient(to bottom, rgba(247, 109, 18, 0.884), rgb(255, 6, 143));
+    border: 2px rgb(255, 255, 255) solid;
+    color: white;
+}
+input{
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    width: 130px;
+    height: 30px;
+    border: 2px rgb(255, 6, 143) solid;
+    color:  rgb(255, 0, 140);
+}
+input::placeholder{
+    color:  rgb(255, 0, 140);
+}
+input:focus{
+    border: 0;
+    outline: none;
+    color:  rgb(255, 0, 140);
+}
+button{
+    background-color: rgb(255, 255, 255);
+   width: 80px;
+   height: 30px;
+   border-radius: 20px;
+   transition: 0.5s;
+   border: 2px rgb(255, 6, 143) solid;
+   color: rgb(255, 0, 140);
+   cursor: pointer;
+   transition: 0.7s all;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    width: 90px;
+   height: 40px;
+}
+.resultado{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
